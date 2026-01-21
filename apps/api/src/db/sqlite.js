@@ -18,3 +18,5 @@ export const db = {
         stmt.run(fb.request_id, fb.bundle_key, fb.rating, fb.comment ?? null);
     },
 };
+
+export { sqlite }
